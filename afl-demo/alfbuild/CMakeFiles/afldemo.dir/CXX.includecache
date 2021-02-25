@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wenhui/Downloads/afl-demo/main.cpp
+string.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+
